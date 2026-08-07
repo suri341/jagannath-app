@@ -63,7 +63,7 @@ contactForm.addEventListener('submit', (e) => {
     );
 
     // Redirect to WhatsApp
-    window.open(`https://wa.me/918919575800?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/918919575870?text=${whatsappMessage}`, '_blank');
 
     // Show success message
     alert('Thank you for your message! Redirecting to WhatsApp...');

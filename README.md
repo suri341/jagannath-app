@@ -8,7 +8,7 @@ https://jagannath.whiteblood.online/
 ## Contact Information
 - **Company**: JAGANNATH ENTERPRISES
 - **Contact Person**: Prof. K Krishna
-- **Phone/WhatsApp**: +91 8919575800
+- **Phone/WhatsApp**: +91 8919575870
 - **Address**: Kathipudi, Andhra Pradesh - 533444
 
 ## Features
