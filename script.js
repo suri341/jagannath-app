@@ -4,6 +4,12 @@ const mobileMenu = document.getElementById('mobileMenu');
 const menuLinks = document.querySelectorAll('.menu-link');
 const headerLogoImage = document.querySelector('.header-logo-image');
 headerLogoImage.src = headerLogoImage.getAttribute('src').replace(/\s/g, '');
+const browserFavicon = document.createElement('link');
+browserFavicon.rel = 'icon';
+browserFavicon.type = 'image/jpeg';
+browserFavicon.href = headerLogoImage.src;
+document.head.appendChild(browserFavicon);
+headerLogoImage.remove();
 
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('active');
@@ -32,7 +38,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            const headerHeight = header.offsetHeight;
+            const headerHeight = 57;
             const targetPosition = target.offsetTop - headerHeight;
             window.scrollTo({
                 top: targetPosition,
