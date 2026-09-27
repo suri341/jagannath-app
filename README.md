@@ -3,7 +3,7 @@
 Professional website for Jagannath Enterprises, a leading supplier of rice mill sortex machinery spare parts based in Kathipudi, Andhra Pradesh.
 
 ## Website URL
-https://jagannathenterprises.whiteblood.online/
+https://jagannathenterprises.vihan.store/
 
 ## Contact Information
 - **Company**: JAGANNATH ENTERPRISES
