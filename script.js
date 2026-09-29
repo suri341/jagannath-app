@@ -4,12 +4,7 @@ const mobileMenu = document.getElementById('mobileMenu');
 const menuLinks = document.querySelectorAll('.menu-link');
 const headerLogoImage = document.querySelector('.header-logo-image');
 headerLogoImage.src = headerLogoImage.getAttribute('src').replace(/\s/g, '');
-const browserFavicon = document.createElement('link');
-browserFavicon.rel = 'icon';
-browserFavicon.type = 'image/jpeg';
-browserFavicon.href = headerLogoImage.src;
-document.head.appendChild(browserFavicon);
-headerLogoImage.remove();
+headerLogoImage.alt = 'Jagannath Enterprises logo';
 
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('active');
